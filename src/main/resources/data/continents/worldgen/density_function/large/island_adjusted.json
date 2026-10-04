@@ -1,0 +1,18 @@
+{
+  "type": "add",
+  "left": "continents:large/island_squared",
+  "right": {
+    "type": "add",
+    "left": {
+      "type": "min",
+      "left": 0.6,
+      "right": {
+        "xz_scale": 0.25,
+        "y_scale": 0.0,
+        "noise": "continents:large/island_amount",
+        "type": "minecraft:noise"
+      }
+    },
+    "right": -0.675
+  }
+}

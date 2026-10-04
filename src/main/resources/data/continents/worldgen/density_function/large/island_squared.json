@@ -1,0 +1,30 @@
+{
+  "type": "mul",
+  "left": 1.0,
+  "right": {
+    "type": "add",
+    "left": -0.19,
+    "right": {
+      "type": "square",
+      "input": {
+        "type": "add",
+        "left": 0.19,
+        "right": {
+          "type": "clamp",
+          "min": -0.19,
+          "max": 1000000,
+          "input": {
+            "type": "add",
+            "left": {
+              "xz_scale": 0.25,
+              "y_scale": 0.0,
+              "noise": "continents:large/island_noise",
+              "type": "minecraft:noise"
+            },
+            "right": "continents:large/island_impact"
+          }
+        }
+      }
+    }
+  }
+}

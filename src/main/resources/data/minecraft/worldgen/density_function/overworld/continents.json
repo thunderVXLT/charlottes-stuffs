@@ -1,0 +1,5 @@
+{
+  "type": "max",
+  "left": "continents:adjusted_continents",
+  "right": "continents:islands"
+}

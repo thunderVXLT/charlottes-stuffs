@@ -1,0 +1,19 @@
+{
+  "type": "add",
+  "left": {
+    "type": "minecraft:noise",
+    "noise": "continents:spawn/ring3",
+    "xz_scale": 0.75,
+    "y_scale": 0.0
+  },
+  "right": {
+    "type": "mul",
+    "right": -1,
+    "left": {
+      "type": "minecraft:noise",
+      "noise": "continents:spawn/ring3",
+      "xz_scale": 0.73,
+      "y_scale": 0.0
+    }
+  }
+}
