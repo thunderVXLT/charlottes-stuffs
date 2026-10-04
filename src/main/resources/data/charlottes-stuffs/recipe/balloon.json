@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "WWW",
+    "WHW",
+    " S "
+  ],
+  "key": {
+    "W": "minecraft:red_wool",
+    "H": "charlottes-stuffs:helium",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "charlottes-stuffs:balloon"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "charlottes-stuffs:block/componentizer_side",
+    "down": "charlottes-stuffs:block/componentizer_top",
+    "up": "charlottes-stuffs:block/componentizer_top",
+    "north": "charlottes-stuffs:block/componentizer_front",
+    "south": "charlottes-stuffs:block/componentizer_front",
+    "east": "charlottes-stuffs:block/componentizer_side",
+    "west": "charlottes-stuffs:block/componentizer_side"
+  }
+}

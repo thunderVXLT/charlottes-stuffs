@@ -1,0 +1,20 @@
+{
+  "entity.seal.ambient": {
+    "subtitle": "subtitles.charlottes-stuffs.entity.seal.ambient",
+    "sounds": [
+      { "name": "charlottes-stuffs:entity/seal/ambient" }
+    ]
+  },
+  "entity.seal.hurt": {
+    "subtitle": "subtitles.charlottes-stuffs.entity.seal.hurt",
+    "sounds": [
+      { "name": "charlottes-stuffs:entity/seal/hurt" }
+    ]
+  },
+  "entity.seal.death": {
+    "subtitle": "subtitles.charlottes-stuffs.entity.seal.death",
+    "sounds": [
+      { "name": "charlottes-stuffs:entity/seal/death" }
+    ]
+  }
+}
