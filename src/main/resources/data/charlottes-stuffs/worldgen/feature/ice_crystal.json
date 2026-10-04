@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "id": "charlottes-stuffs:ice_crystal",
+    "properties": {
+      "facing": "up"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "thickness=tip,vertical_direction=up": { "model": "charlottes-stuffs:block/icicle_tip" },
+    "thickness=tip,vertical_direction=down": { "model": "charlottes-stuffs:block/icicle_tip", "x": 180 },
+    "thickness=frustum,vertical_direction=up": { "model": "charlottes-stuffs:block/icicle_frustum" },
+    "thickness=frustum,vertical_direction=down": { "model": "charlottes-stuffs:block/icicle_frustum", "x": 180 },
+    "thickness=middle,vertical_direction=up": { "model": "charlottes-stuffs:block/icicle_middle" },
+    "thickness=middle,vertical_direction=down": { "model": "charlottes-stuffs:block/icicle_middle", "x": 180 },
+    "thickness=base,vertical_direction=up": { "model": "charlottes-stuffs:block/icicle_base" },
+    "thickness=base,vertical_direction=down": { "model": "charlottes-stuffs:block/icicle_base", "x": 180 },
+    "thickness=tip_merge,vertical_direction=up": { "model": "charlottes-stuffs:block/icicle_tip_merge" },
+    "thickness=tip_merge,vertical_direction=down": { "model": "charlottes-stuffs:block/icicle_tip_merge", "x": 180 }
+  }
+}

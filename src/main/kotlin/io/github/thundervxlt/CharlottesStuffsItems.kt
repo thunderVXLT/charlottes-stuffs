@@ -84,6 +84,8 @@ object CharlottesStuffsItems {
             output.accept(CharlottesStuffsBlocks.COMPRESSED_DIORITE)
             output.accept(CharlottesStuffsBlocks.REFINED_DIORITE)
             output.accept(CharlottesStuffsBlocks.COMPONENTIZER)
+            output.accept(CharlottesStuffsBlocks.ICICLE)
+            output.accept(CharlottesStuffsBlocks.ICE_CRYSTAL)
             output.accept(STEEL_SCRAP)
             output.accept(STEEL_INGOT)
             output.accept(PROTON)

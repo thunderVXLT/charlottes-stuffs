@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "charlottes-stuffs:block/ice_crystal" },
+    "facing=down": { "model": "charlottes-stuffs:block/ice_crystal", "x": 180 },
+    "facing=east": { "model": "charlottes-stuffs:block/ice_crystal", "x": 90, "y": 90 },
+    "facing=north": { "model": "charlottes-stuffs:block/ice_crystal", "x": 90 },
+    "facing=south": { "model": "charlottes-stuffs:block/ice_crystal", "x": 90, "y": 180 },
+    "facing=west": { "model": "charlottes-stuffs:block/ice_crystal", "x": 90, "y": 270 }
+  }
+}

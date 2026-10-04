@@ -41,7 +41,7 @@ class SealModel(root: ModelPart) : EntityModel<SealRenderState>(root) {
             val root = mesh.root
 
             val waist = root.addOrReplaceChild("waist",
-                CubeListBuilder.create().texOffs(95, 118).addBox(-0.7917f, -1f, 13.25f, 1f, 1f, 1f),
+                CubeListBuilder.create().texOffs(59, 59).addBox(-0.7917f, -1f, 13.25f, 1f, 1f, 1f),
                 PartPose.offset(0.4583f, 24f, -6.25f))
 
             waist.addOrReplaceChild("body",

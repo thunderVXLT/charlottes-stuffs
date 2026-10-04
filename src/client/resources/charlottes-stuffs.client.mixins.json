@@ -3,7 +3,8 @@
 	"package": "io.github.thundervxlt.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"LightmapRenderStateExtractorMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

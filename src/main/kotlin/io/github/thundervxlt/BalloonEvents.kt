@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents
 import net.minecraft.world.entity.EquipmentSlot
 
 object BalloonEvents {
-    // How often (in ticks) the balloon loses 1 durability while its wearer is in the air.
     private const val DAMAGE_INTERVAL_TICKS = 1
 
     fun register() {
