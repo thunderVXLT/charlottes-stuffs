@@ -108,6 +108,7 @@ object CharlottesStuffsItems {
             output.accept(CharlottesStuffsBlocks.PALO_VERDE_DOOR)
             output.accept(CharlottesStuffsBlocks.PALO_VERDE_LEAVES)
             output.accept(CharlottesStuffsBlocks.PALO_VERDE_SAPLING)
+            output.accept(CharlottesStuffsBlocks.FIREWHEEL)
             output.accept(CharlottesStuffsBlocks.COMPRESSED_DIORITE)
             output.accept(CharlottesStuffsBlocks.REFINED_DIORITE)
             output.accept(CharlottesStuffsBlocks.COMPONENTIZER)

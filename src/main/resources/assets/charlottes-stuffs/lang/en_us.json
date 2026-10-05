@@ -1,4 +1,6 @@
 {
+  "biome.charlottes-stuffs.ice_caves": "Ice Caves",
+  "biome.charlottes-stuffs.sierra_badlands": "Sierra Badlands",
   "block.charlottes-stuffs.compressed_diorite": "Compressed Diorite",
   "block.charlottes-stuffs.refined_diorite": "Refined Diorite",
   "block.charlottes-stuffs.componentizer": "Componentizer",
@@ -19,8 +21,7 @@
   "block.charlottes-stuffs.stripped_palo_verde_wood": "Stripped Palo Verde Wood",
   "block.charlottes-stuffs.palo_verde_leaves": "Palo Verde Leaves",
   "block.charlottes-stuffs.palo_verde_sapling": "Palo Verde Sapling",
-  "biome.charlottes-stuffs.ice_caves": "Ice Caves",
-  "biome.charlottes-stuffs.sierra_badlands": "Sierra Badlands",
+  "block.charlottes-stuffs.firewheel": "Firewheel",
   "creativeTab.charlottes-stuffs": "Charlotte's Stuffs",
   "entity.charlottes-stuffs.seal": "Seal",
   "item.charlottes-stuffs.proton": "Proton",

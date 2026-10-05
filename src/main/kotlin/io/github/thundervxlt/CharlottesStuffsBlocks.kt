@@ -4,6 +4,7 @@ import net.minecraft.core.Registry
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.core.registries.Registries
 import net.minecraft.resources.ResourceKey
+import net.minecraft.world.effect.MobEffects
 import net.minecraft.world.item.BlockItem
 import net.minecraft.world.item.Item
 import net.minecraft.world.level.block.Block
@@ -12,6 +13,8 @@ import net.minecraft.world.level.block.ButtonBlock
 import net.minecraft.world.level.block.DoorBlock
 import net.minecraft.world.level.block.FenceBlock
 import net.minecraft.world.level.block.FenceGateBlock
+import net.minecraft.world.level.block.FlowerBlock
+import net.minecraft.world.level.block.FlowerPotBlock
 import net.minecraft.world.level.block.IceCrystalBlock
 import net.minecraft.world.level.block.PressurePlateBlock
 import net.minecraft.world.level.block.RotatedPillarBlock
@@ -192,6 +195,24 @@ object CharlottesStuffsBlocks {
         "palo_verde_door",
         { settings -> DoorBlock(BlockSetType.OAK, settings) },
         BlockBehaviour.Properties.ofFullCopy(PALO_VERDE_PLANKS).noOcclusion()
+    )
+    val FIREWHEEL = register(
+        "firewheel",
+        { settings -> FlowerBlock(MobEffects.FIRE_RESISTANCE, 5.0f, settings) },
+        BlockBehaviour.Properties.of()
+            .mapColor(MapColor.PLANT)
+            .noCollision()
+            .instabreak()
+            .sound(SoundType.GRASS)
+            .pushReaction(PushReaction.POPPED)
+    )
+    val POTTED_FIREWHEEL = register(
+        "potted_firewheel",
+        { settings -> FlowerPotBlock(FIREWHEEL, settings) },
+        BlockBehaviour.Properties.of()
+            .instabreak()
+            .noOcclusion()
+            .pushReaction(PushReaction.POPPED)
     )
 
     fun initialize() {}
