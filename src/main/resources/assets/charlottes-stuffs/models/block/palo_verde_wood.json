@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "charlottes-stuffs:block/palo_verde_log",
+    "side": "charlottes-stuffs:block/palo_verde_log"
+  }
+}

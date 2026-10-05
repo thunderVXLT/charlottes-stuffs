@@ -1,6 +1,11 @@
 package io.github.thundervxlt
 
+import io.github.thundervxlt.CharlottesStuffsBlocks.PALO_VERDE_LOG
+import io.github.thundervxlt.CharlottesStuffsBlocks.PALO_VERDE_WOOD
+import io.github.thundervxlt.CharlottesStuffsBlocks.STRIPPED_PALO_VERDE_LOG
+import io.github.thundervxlt.CharlottesStuffsBlocks.STRIPPED_PALO_VERDE_WOOD
 import net.fabricmc.api.ModInitializer
+import net.fabricmc.fabric.api.item.v1.BlockTransformerHelper
 import net.minecraft.resources.Identifier
 import org.slf4j.LoggerFactory
 
@@ -22,6 +27,8 @@ object CharlotteSStuffs : ModInitializer {
 		CharlottesStuffsMenus.initialize()
 		BalloonEvents.register()
 		AnvilCrushing.register()
+		BlockTransformerHelper.registerStripping(PALO_VERDE_LOG, STRIPPED_PALO_VERDE_LOG)
+		BlockTransformerHelper.registerStripping(PALO_VERDE_WOOD, STRIPPED_PALO_VERDE_WOOD)
 	}
 
 	fun id(path: String): Identifier

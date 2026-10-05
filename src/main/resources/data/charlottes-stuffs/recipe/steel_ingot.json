@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CAC",
+    "ADA",
+    "CAC"
+  ],
+  "key": {
+    "C": "charlottes-stuffs:refined_diorite",
+    "A": "minecraft:amethyst_shard",
+    "D": "charlottes-stuffs:steel_scrap"
+  },
+  "result": {
+    "id": "charlottes-stuffs:steel_ingot"
+  }
+}

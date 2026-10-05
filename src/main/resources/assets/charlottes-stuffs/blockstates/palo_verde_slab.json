@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "charlottes-stuffs:block/palo_verde_slab"
+    },
+    "type=double": {
+      "model": "charlottes-stuffs:block/palo_verde_planks"
+    },
+    "type=top": {
+      "model": "charlottes-stuffs:block/palo_verde_slab_top"
+    }
+  }
+}

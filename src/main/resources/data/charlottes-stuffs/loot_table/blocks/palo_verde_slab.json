@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "charlottes-stuffs:palo_verde_slab",
+                "state": {
+                  "type": "double"
+                }
+              },
+              "count": 2
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "charlottes-stuffs:palo_verde_slab"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "charlottes-stuffs:palo_verde_slab"
+}

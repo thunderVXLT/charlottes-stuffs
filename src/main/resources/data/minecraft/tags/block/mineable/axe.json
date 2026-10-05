@@ -1,0 +1,18 @@
+{
+  "replace": false,
+    "values": [
+      "charlottes-stuffs:palo_verde_planks",
+      "charlottes-stuffs:palo_verde_log",
+      "charlottes-stuffs:stripped_palo_verde_log",
+      "charlottes-stuffs:palo_verde_wood",
+      "charlottes-stuffs:stripped_palo_verde_wood",
+      "charlottes-stuffs:palo_verde_stairs",
+      "charlottes-stuffs:palo_verde_slab",
+      "charlottes-stuffs:palo_verde_fence",
+      "charlottes-stuffs:palo_verde_fence_gate",
+      "charlottes-stuffs:palo_verde_pressure_plate",
+      "charlottes-stuffs:palo_verde_button",
+      "charlottes-stuffs:palo_verde_trapdoor",
+      "charlottes-stuffs:palo_verde_door"
+  ]
+}

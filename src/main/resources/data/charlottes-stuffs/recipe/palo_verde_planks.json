@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": ["#charlottes-stuffs:palo_verde_logs"],
+  "result": { "id": "charlottes-stuffs:palo_verde_planks", "count": 4 }
+}

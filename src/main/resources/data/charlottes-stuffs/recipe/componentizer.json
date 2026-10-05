@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GCG",
+    "SBS",
+    "RRR"
+  ],
+  "key": {
+    "S": "charlottes-stuffs:steel_ingot",
+    "B": "minecraft:book",
+    "R": "charlottes-stuffs:refined_diorite",
+    "G": "minecraft:glass",
+    "C": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "charlottes-stuffs:componentizer"
+  }
+}
