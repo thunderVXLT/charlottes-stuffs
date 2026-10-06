@@ -78,6 +78,7 @@ object CharlottesStuffsItems {
     )
     val STEEL_SCRAP: Item = register(CharlottesStuffsItemIds.STEEL_SCRAP, ::Item, Item.Properties())
     val STEEL_INGOT: Item = register(CharlottesStuffsItemIds.STEEL_INGOT, ::Item, Item.Properties())
+    val FLASHLIGHT: Item = register(CharlottesStuffsItemIds.FLASHLIGHT, ::FlashlightItem, Item.Properties().stacksTo(1))
     val SEAL_SPAWN_EGG = register(
         CharlottesStuffsItemIds.SEAL_SPAWN_EGG,
         ::SpawnEggItem,
@@ -137,6 +138,7 @@ object CharlottesStuffsItems {
             output.accept(PHOSPHORUS)
             output.accept(BALLOON)
             output.accept(LITHIUM_BATTERY)
+            output.accept(FLASHLIGHT)
             output.accept(SEAL_SPAWN_EGG)
         }
         .build()

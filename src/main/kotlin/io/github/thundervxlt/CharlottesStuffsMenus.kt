@@ -22,6 +22,14 @@ object CharlottesStuffsMenus {
             FeatureFlagSet.of()
         )
     )
+    val FLASHLIGHT: MenuType<FlashlightMenu> = Registry.register(
+        BuiltInRegistries.MENU,
+        CharlotteSStuffs.id("flashlight"),
+        MenuType(
+            MenuType.MenuSupplier { id, inv -> FlashlightMenu(id, inv) },
+            FeatureFlagSet.of()
+        )
+    )
 
     fun initialize() {}
 }

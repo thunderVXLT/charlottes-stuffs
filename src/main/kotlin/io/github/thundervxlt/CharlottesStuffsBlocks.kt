@@ -1,6 +1,7 @@
 package io.github.thundervxlt
 
 import net.minecraft.core.Registry
+import net.minecraft.core.particles.ParticleTypes
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.core.registries.Registries
 import net.minecraft.resources.ResourceKey
@@ -218,6 +219,21 @@ object CharlottesStuffsBlocks {
         "atomic_block",
         ::AtomicBlock,
         BlockBehaviour.Properties.of().strength(3.5f).requiresCorrectToolForDrops()
+    )
+
+    private fun registerUnlitTorch(name: String, factory: (BlockBehaviour.Properties) -> Block, copyFrom: Block): Block {
+        val key = ResourceKey.create(Registries.BLOCK, CharlotteSStuffs.id(name))
+        val block = factory(BlockBehaviour.Properties.ofFullCopy(copyFrom).lightLevel { 0 }.setId(key))
+        return Registry.register(BuiltInRegistries.BLOCK, key, block)
+    }
+
+    val UNLIT_TORCH = registerUnlitTorch("unlit_torch", { props -> UnlitTorchBlock(ParticleTypes.FLAME, props) }, Blocks.TORCH)
+    val UNLIT_WALL_TORCH = registerUnlitTorch("unlit_wall_torch", { props -> UnlitWallTorchBlock(ParticleTypes.FLAME, props) }, Blocks.WALL_TORCH)
+    val UNLIT_SOUL_TORCH = registerUnlitTorch("unlit_soul_torch", { props -> UnlitTorchBlock(ParticleTypes.SOUL_FIRE_FLAME, props) }, Blocks.SOUL_TORCH)
+    val UNLIT_SOUL_WALL_TORCH = registerUnlitTorch(
+        "unlit_soul_wall_torch",
+        { props -> UnlitWallTorchBlock(ParticleTypes.SOUL_FIRE_FLAME, props) },
+        Blocks.SOUL_WALL_TORCH
     )
 
     fun initialize() {}

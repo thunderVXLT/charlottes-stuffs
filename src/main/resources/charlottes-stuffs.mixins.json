@@ -4,10 +4,12 @@
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin",
+		"FlintAndSteelItemMixin",
 		"IceCavesBiomeMixin",
 		"ItemStackMixin",
 		"PlayerInventoryMixin",
-		"SierraBadlandsBiomeMixin"
+		"SierraBadlandsBiomeMixin",
+		"TorchLifecycleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

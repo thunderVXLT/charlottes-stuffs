@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "charlottes-stuffs:block/unlit_torch"
+  }
+}

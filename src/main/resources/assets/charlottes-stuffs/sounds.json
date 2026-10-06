@@ -16,5 +16,11 @@
     "sounds": [
       { "name": "charlottes-stuffs:entity/seal/death" }
     ]
+  },
+  "item.flashlight.click": {
+    "subtitle": "subtitles.charlottes-stuffs.item.flashlight.click",
+    "sounds": [
+      { "name": "charlottes-stuffs:item/flashlight_click" }
+    ]
   }
 }

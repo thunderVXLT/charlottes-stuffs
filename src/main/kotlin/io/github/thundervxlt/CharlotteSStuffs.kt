@@ -25,8 +25,11 @@ object CharlotteSStuffs : ModInitializer {
 		CharlottesStuffsEntities.init()
 		CharlottesStuffsSounds.init()
 		CharlottesStuffsMenus.initialize()
+		CharlottesStuffsComponents.initialize()
+		CharlottesStuffsNetworking.initialize()
 		BalloonEvents.register()
 		AnvilCrushing.register()
+		FlashlightEvents.initialize()
 		BlockTransformerHelper.registerStripping(PALO_VERDE_LOG, STRIPPED_PALO_VERDE_LOG)
 		BlockTransformerHelper.registerStripping(PALO_VERDE_WOOD, STRIPPED_PALO_VERDE_WOOD)
 	}

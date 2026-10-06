@@ -30,5 +30,6 @@ object CharlottesStuffsItemIds {
     val LITHIUM_BATTERY: ResourceKey<Item> = create("lithium_battery")
     val STEEL_SCRAP: ResourceKey<Item> = create("steel_scrap")
     val STEEL_INGOT: ResourceKey<Item> = create("steel_ingot")
+    val FLASHLIGHT: ResourceKey<Item> = create("flashlight")
     val SEAL_SPAWN_EGG = create("seal_spawn_egg")
 }

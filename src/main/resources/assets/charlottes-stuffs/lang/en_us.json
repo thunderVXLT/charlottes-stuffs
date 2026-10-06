@@ -47,10 +47,15 @@
   "item.charlottes-stuffs.lithium_battery": "Lithium Battery",
   "item.charlottes-stuffs.steel_scrap": "Steel Scrap",
   "item.charlottes-stuffs.steel_ingot": "Steel Ingot",
+  "item.charlottes-stuffs.flashlight": "Flashlight",
+  "key.charlottes-stuffs.open_flashlight": "Open Flashlight",
+  "key.category.charlottes-stuffs.general": "Charlotte's Stuffs",
+  "message.charlottes-stuffs.flashlight.needs_battery": "The flashlight needs a Lithium Battery.",
   "item.charlottes-stuffs.seal_spawn_egg": "Seal Spawn Egg",
   "subtitles.charlottes-stuffs.entity.seal.ambient": "Seal barks",
   "subtitles.charlottes-stuffs.entity.seal.hurt": "How DARE you",
   "subtitles.charlottes-stuffs.entity.seal.death": "Seal dies",
+  "subtitles.charlottes-stuffs.item.flashlight.click": "Flashlight clicks",
   "container.charlottes-stuffs.componentizer": "Componentizer",
   "container.charlottes-stuffs.atomic_block": "Atomic Block"
 }

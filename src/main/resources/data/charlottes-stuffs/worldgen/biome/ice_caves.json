@@ -49,7 +49,7 @@
     "minecraft:visual/fog_color": "#142850"
   },
   "carvers": [
-    "charlottes-stuffs:ice_cave",
+    "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
