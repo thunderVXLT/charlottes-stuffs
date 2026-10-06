@@ -214,6 +214,11 @@ object CharlottesStuffsBlocks {
             .noOcclusion()
             .pushReaction(PushReaction.POPPED)
     )
+    val ATOMIC_BLOCK = register(
+        "atomic_block",
+        ::AtomicBlock,
+        BlockBehaviour.Properties.of().strength(3.5f).requiresCorrectToolForDrops()
+    )
 
     fun initialize() {}
 }

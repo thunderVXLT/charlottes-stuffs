@@ -4,6 +4,7 @@
   "block.charlottes-stuffs.compressed_diorite": "Compressed Diorite",
   "block.charlottes-stuffs.refined_diorite": "Refined Diorite",
   "block.charlottes-stuffs.componentizer": "Componentizer",
+  "block.charlottes-stuffs.atomic_block": "Atomic Block",
   "block.charlottes-stuffs.icicle": "Icicle",
   "block.charlottes-stuffs.ice_crystal": "Ice Crystal",
   "block.charlottes-stuffs.palo_verde_planks": "Palo Verde Planks",
@@ -50,5 +51,6 @@
   "subtitles.charlottes-stuffs.entity.seal.ambient": "Seal barks",
   "subtitles.charlottes-stuffs.entity.seal.hurt": "How DARE you",
   "subtitles.charlottes-stuffs.entity.seal.death": "Seal dies",
-  "container.charlottes-stuffs.componentizer": "Componentizer"
+  "container.charlottes-stuffs.componentizer": "Componentizer",
+  "container.charlottes-stuffs.atomic_block": "Atomic Block"
 }

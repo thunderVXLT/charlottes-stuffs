@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "charlottes-stuffs:block/atomic_block_side",
+    "down": "charlottes-stuffs:block/atomic_block_top",
+    "up": "charlottes-stuffs:block/atomic_block_top",
+    "north": "charlottes-stuffs:block/atomic_block_front",
+    "south": "charlottes-stuffs:block/atomic_block_front",
+    "east": "charlottes-stuffs:block/atomic_block_side",
+    "west": "charlottes-stuffs:block/atomic_block_side"
+  }
+}

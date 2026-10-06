@@ -112,6 +112,7 @@ object CharlottesStuffsItems {
             output.accept(CharlottesStuffsBlocks.COMPRESSED_DIORITE)
             output.accept(CharlottesStuffsBlocks.REFINED_DIORITE)
             output.accept(CharlottesStuffsBlocks.COMPONENTIZER)
+            output.accept(CharlottesStuffsBlocks.ATOMIC_BLOCK)
             output.accept(CharlottesStuffsBlocks.ICICLE)
             output.accept(CharlottesStuffsBlocks.ICE_CRYSTAL)
             output.accept(STEEL_SCRAP)

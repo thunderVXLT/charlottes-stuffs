@@ -14,6 +14,14 @@ object CharlottesStuffsMenus {
             FeatureFlagSet.of()
         )
     )
+    val ATOMIC: MenuType<AtomicMenu> = Registry.register(
+        BuiltInRegistries.MENU,
+        CharlotteSStuffs.id("atomic_block"),
+        MenuType(
+            MenuType.MenuSupplier { id, inv -> AtomicMenu(id, inv) },
+            FeatureFlagSet.of()
+        )
+    )
 
     fun initialize() {}
 }

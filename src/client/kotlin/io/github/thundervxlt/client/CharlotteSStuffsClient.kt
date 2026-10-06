@@ -1,5 +1,6 @@
 package io.github.thundervxlt.client
 
+import io.github.thundervxlt.AtomicScreen
 import io.github.thundervxlt.CharlottesStuffsEntities
 import io.github.thundervxlt.CharlottesStuffsMenus
 import io.github.thundervxlt.ComponentizerScreen
@@ -14,5 +15,6 @@ object CharlotteSStuffsClient : ClientModInitializer {
 		ModelLayerRegistry.registerModelLayer(SealModel.LAYER, SealModel::createBodyLayer)
 		EntityRenderers.register<SealEntity>(CharlottesStuffsEntities.SEAL) { context -> SealRenderer(context) }
 		MenuScreens.register(CharlottesStuffsMenus.COMPONENTIZER, ::ComponentizerScreen)
+		MenuScreens.register(CharlottesStuffsMenus.ATOMIC, ::AtomicScreen)
 	}
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "RGR",
+    "PPP"
+  ],
+  "key": {
+    "S": "charlottes-stuffs:steel_ingot",
+    "R": "charlottes-stuffs:refined_diorite",
+    "G": "minecraft:glass",
+    "P": "#minecraft:planks"
+  },
+  "result": {
+    "id": "charlottes-stuffs:atomic_block",
+    "count": 1
+  }
+}
