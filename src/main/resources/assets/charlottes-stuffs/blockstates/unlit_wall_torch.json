@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": { "model": "charlottes-stuffs:block/unlit_wall_torch"},
+    "facing=north": { "model": "charlottes-stuffs:block/unlit_wall_torch", "y": 270 },
+    "facing=south": { "model": "charlottes-stuffs:block/unlit_wall_torch", "y": 90  },
+    "facing=west": { "model": "charlottes-stuffs:block/unlit_wall_torch", "y": 180 }
+  }
+}

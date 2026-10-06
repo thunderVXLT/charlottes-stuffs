@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "charlottes-stuffs:palo_verde_door",
+          "properties": {
+            "half": "lower"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "charlottes-stuffs:palo_verde_door"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "charlottes-stuffs:blocks/palo_verde_door"
+}

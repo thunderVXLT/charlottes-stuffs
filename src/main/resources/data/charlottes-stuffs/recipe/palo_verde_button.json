@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "charlottes-stuffs:palo_verde_planks"
+  ],
+  "result": {
+    "id": "charlottes-stuffs:palo_verde_button"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "charlottes-stuffs:block/palo_verde_pressure_plate" },
+    "powered=true": { "model": "charlottes-stuffs:block/palo_verde_pressure_plate_down" }
+  }
+}

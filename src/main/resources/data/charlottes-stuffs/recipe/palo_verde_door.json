@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "category": "redstone",
+  "key": {
+    "P": "charlottes-stuffs:palo_verde_planks"
+  },
+  "pattern": [
+    "PP",
+    "PP",
+    "PP"
+  ],
+  "result": {
+    "count": 3,
+    "id": "charlottes-stuffs:palo_verde_door"
+  }
+}

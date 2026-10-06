@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "key": {
+    "P": "charlottes-stuffs:palo_verde_planks"
+  },
+  "pattern": [
+    "PP"
+  ],
+  "result": {
+    "id": "charlottes-stuffs:palo_verde_pressure_plate"
+  }
+}
