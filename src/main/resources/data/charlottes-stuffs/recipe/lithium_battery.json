@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SCS",
+    " L ",
+    "SCS"
+  ],
+  "key": {
+    "S": "charlottes-stuffs:steel_ingot",
+    "C": "minecraft:copper_ingot",
+    "L": "charlottes-stuffs:lithium"
+  },
+  "result": {
+    "id": "charlottes-stuffs:componentizer"
+  }
+}

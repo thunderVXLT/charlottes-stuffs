@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SPS",
+    " I ",
+    " S "
+  ],
+  "key": {
+    "S": "charlottes-stuffs:steel_ingot",
+    "I": "minecraft:iron_ingot",
+    "P": "charlottes-stuffs:phosphorus"
+  },
+  "result": {
+    "id": "charlottes-stuffs:componentizer"
+  }
+}
