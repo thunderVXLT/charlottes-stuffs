@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    " C ",
+    " A "
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "A": "minecraft:amethyst_shard",
+    "S": "charlottes-stuffs:steel_ingot"
+  },
+  "result": {
+    "id": "minecraft:shulker_box"
+  }
+}
